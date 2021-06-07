@@ -79,13 +79,13 @@ INSERT INTO countries (name, capital, population) VALUES
 
 -- Add entries to the famous_people table
 
-INSERT INTO famous_people (name, occupation, date_of_birth, deceased)
+INSERT INTO celebrities (name, occupation, date_of_birth, deceased)
 VALUES ('Bruce Springsteen', 'singer/songwriter', '09-23-1949', DEFAULT);
 
-INSERT INTO famous_people (name, occupation, date_of_birth, deceased)
+INSERT INTO celebrities (name, occupation, date_of_birth, deceased)
 VALUES ('Scarlett Johansson', 'actress', '11-22-1984', DEFAULT);
 
-INSERT INTO famous_people (name, occupation, date_of_birth, deceased)
+INSERT INTO celebrities (name, occupation, date_of_birth, deceased)
 VALUES ('Frank Sinatra', 'singer/actor', '12-12-1915', true),
 ('Tom Cruise', 'actor', '07-03-1962', DEFAULT);
 
